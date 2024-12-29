@@ -1,7 +1,6 @@
 import FindIterativeAlgorithm from "@/components/find_iterative_algorithm";
 import { promises as fs } from "fs";
 import FindRecursiveAlgorithm from "../../../components/find_recursive_algorithm";
-import path from "path";
 
 export default async function CountrySearchPage({
   searchParams,
@@ -9,8 +8,10 @@ export default async function CountrySearchPage({
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { country = "" } = await searchParams;
-  const filepath = path.resolve(process.cwd() + "/public/trm_miui.json");
-  const file = await fs.readFile(filepath, "utf8");
+  const file = await fs.readFile(
+    process.cwd() + "/public/trm_miui.json",
+    "utf8"
+  );
   const data = JSON.parse(file);
   const countries = data.countries;
   return (

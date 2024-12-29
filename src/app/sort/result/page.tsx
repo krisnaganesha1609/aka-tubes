@@ -1,14 +1,15 @@
 import SortAlgorithm from "@/components/sort_algorithm";
 import { promises as fs } from "fs";
-import path from "path";
 export default async function ResultPage({
   searchParams,
 }: {
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { sort = "" } = await searchParams;
-  const filepath = path.resolve(process.cwd() + "/public/trm_miui.json");
-  const file = await fs.readFile(filepath, "utf8");
+  const file = await fs.readFile(
+    process.cwd() + "/public/trm_miui.json",
+    "utf8"
+  );
   const data = JSON.parse(file);
   const dataDate = data.downloads;
   const dataCountry = data.countries;
@@ -16,7 +17,7 @@ export default async function ResultPage({
     <div className={`flex flex-col align-middle items-center`}>
       <div className="mt-32 items-center text-center">
         <h2 className="text-green-600 text-2xl font-bold mb-10 font-[family-name:var(--font-geist-sans)]">
-          Sort Result
+          Search Result
         </h2>
         <div className="grid grid-cols-2 gap-4 items-start">
           <SortAlgorithm data={dataDate} order={sort} type="Date" />
