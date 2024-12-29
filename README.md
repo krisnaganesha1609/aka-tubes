@@ -1,3 +1,10 @@
+`    _    _  __    _       _____ _   _ ____  _____ ____  `
+`   / \  | |/ /   / \     |_   _| | | | __ )| ____/ ___| `
+`  / _ \ | ' /   / _ \ _____| | | | | |  _ \|  _| \___ \ `
+` / ___ \| . \  / ___ \_____| | | |_| | |_) | |___ ___) |`
+`/_/   \_\_|\_\/_/   \_\    |_|  \___/|____/|_____|____/ `
+` `
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
