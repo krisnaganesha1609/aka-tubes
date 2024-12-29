@@ -1,0 +1,1179 @@
+{
+    "messages": [],
+    "downloads": [
+        [
+            "2024-04-28 00:00:00",
+            13
+        ],
+        [
+            "2024-05-05 00:00:00",
+            1502
+        ],
+        [
+            "2024-05-12 00:00:00",
+            590
+        ],
+        [
+            "2024-05-19 00:00:00",
+            1103
+        ],
+        [
+            "2024-05-26 00:00:00",
+            1186
+        ],
+        [
+            "2024-06-02 00:00:00",
+            516
+        ],
+        [
+            "2024-06-09 00:00:00",
+            629
+        ],
+        [
+            "2024-06-16 00:00:00",
+            1647
+        ],
+        [
+            "2024-06-23 00:00:00",
+            1026
+        ],
+        [
+            "2024-06-30 00:00:00",
+            1270
+        ],
+        [
+            "2024-07-07 00:00:00",
+            1494
+        ],
+        [
+            "2024-07-14 00:00:00",
+            972
+        ],
+        [
+            "2024-07-21 00:00:00",
+            927
+        ],
+        [
+            "2024-07-28 00:00:00",
+            1088
+        ],
+        [
+            "2024-08-04 00:00:00",
+            2031
+        ],
+        [
+            "2024-08-11 00:00:00",
+            973
+        ],
+        [
+            "2024-08-18 00:00:00",
+            938
+        ],
+        [
+            "2024-08-25 00:00:00",
+            929
+        ],
+        [
+            "2024-09-01 00:00:00",
+            1375
+        ],
+        [
+            "2024-09-08 00:00:00",
+            732
+        ],
+        [
+            "2024-09-15 00:00:00",
+            504
+        ],
+        [
+            "2024-09-22 00:00:00",
+            644
+        ],
+        [
+            "2024-09-29 00:00:00",
+            881
+        ],
+        [
+            "2024-10-06 00:00:00",
+            1061
+        ],
+        [
+            "2024-10-13 00:00:00",
+            95
+        ]
+    ],
+    "countries": [
+        [
+            "Indonesia",
+            5379
+        ],
+        [
+            "India",
+            3641
+        ],
+        [
+            "Bangladesh",
+            2161
+        ],
+        [
+            "Russia",
+            1130
+        ],
+        [
+            "Philippines",
+            960
+        ],
+        [
+            "Turkey",
+            933
+        ],
+        [
+            "Egypt",
+            748
+        ],
+        [
+            "United States",
+            649
+        ],
+        [
+            "Ireland",
+            533
+        ],
+        [
+            "Singapore",
+            470
+        ],
+        [
+            "Brazil",
+            437
+        ],
+        [
+            "Mexico",
+            420
+        ],
+        [
+            "Viet Nam",
+            405
+        ],
+        [
+            "Germany",
+            357
+        ],
+        [
+            "Nepal",
+            350
+        ],
+        [
+            "Pakistan",
+            342
+        ],
+        [
+            "Venezuela",
+            297
+        ],
+        [
+            "Colombia",
+            287
+        ],
+        [
+            "Ukraine",
+            266
+        ],
+        [
+            "Ecuador",
+            264
+        ],
+        [
+            "United Kingdom",
+            258
+        ],
+        [
+            "Algeria",
+            256
+        ],
+        [
+            "Iran",
+            239
+        ],
+        [
+            "Italy",
+            223
+        ],
+        [
+            "France",
+            210
+        ],
+        [
+            "Argentina",
+            185
+        ],
+        [
+            "Unknown",
+            163
+        ],
+        [
+            "Peru",
+            158
+        ],
+        [
+            "Kenya",
+            152
+        ],
+        [
+            "Spain",
+            136
+        ],
+        [
+            "Japan",
+            127
+        ],
+        [
+            "Poland",
+            121
+        ],
+        [
+            "Netherlands",
+            109
+        ],
+        [
+            "Korea",
+            104
+        ],
+        [
+            "Belarus",
+            102
+        ],
+        [
+            "Canada",
+            91
+        ],
+        [
+            "Moldova",
+            85
+        ],
+        [
+            "Romania",
+            85
+        ],
+        [
+            "Thailand",
+            79
+        ],
+        [
+            "Malaysia",
+            73
+        ],
+        [
+            "Morocco",
+            64
+        ],
+        [
+            "Nicaragua",
+            58
+        ],
+        [
+            "Paraguay",
+            52
+        ],
+        [
+            "Georgia",
+            52
+        ],
+        [
+            "Dominican Republic",
+            51
+        ],
+        [
+            "Chile",
+            49
+        ],
+        [
+            "Portugal",
+            43
+        ],
+        [
+            "Hungary",
+            43
+        ],
+        [
+            "Greece",
+            43
+        ],
+        [
+            "United Arab Emirates",
+            42
+        ],
+        [
+            "Sri Lanka",
+            38
+        ],
+        [
+            "Honduras",
+            38
+        ],
+        [
+            "Ghana",
+            34
+        ],
+        [
+            "South Africa",
+            30
+        ],
+        [
+            "Slovakia",
+            30
+        ],
+        [
+            "Saudi Arabia",
+            26
+        ],
+        [
+            "Nigeria",
+            25
+        ],
+        [
+            "Tunisia",
+            21
+        ],
+        [
+            "Mozambique",
+            20
+        ],
+        [
+            "Bolivia",
+            20
+        ],
+        [
+            "Qatar",
+            19
+        ],
+        [
+            "Finland",
+            19
+        ],
+        [
+            "Iraq",
+            18
+        ],
+        [
+            "Austria",
+            18
+        ],
+        [
+            "Latvia",
+            17
+        ],
+        [
+            "Taiwan",
+            17
+        ],
+        [
+            "Australia",
+            16
+        ],
+        [
+            "Sweden",
+            14
+        ],
+        [
+            "Kazakhstan",
+            13
+        ],
+        [
+            "Switzerland",
+            11
+        ],
+        [
+            "Belgium",
+            10
+        ],
+        [
+            "Serbia",
+            10
+        ],
+        [
+            "Myanmar",
+            10
+        ],
+        [
+            "Uzbekistan",
+            10
+        ],
+        [
+            "Czech Republic",
+            9
+        ],
+        [
+            "China",
+            9
+        ],
+        [
+            "Bulgaria",
+            9
+        ],
+        [
+            "Hong Kong",
+            7
+        ],
+        [
+            "Jordan",
+            7
+        ],
+        [
+            "Togo",
+            7
+        ],
+        [
+            "Libya",
+            6
+        ],
+        [
+            "Tajikistan",
+            6
+        ],
+        [
+            "Mauritius",
+            6
+        ],
+        [
+            "Oman",
+            6
+        ],
+        [
+            "Estonia",
+            6
+        ],
+        [
+            "Barbados",
+            5
+        ],
+        [
+            "Sudan",
+            5
+        ],
+        [
+            "Malta",
+            4
+        ],
+        [
+            "Jamaica",
+            4
+        ],
+        [
+            "Tanzania",
+            4
+        ],
+        [
+            "Mauritania",
+            4
+        ],
+        [
+            "Senegal",
+            4
+        ],
+        [
+            "Azerbaijan",
+            4
+        ],
+        [
+            "Uganda",
+            4
+        ],
+        [
+            "Belize",
+            3
+        ],
+        [
+            "Maldives",
+            3
+        ],
+        [
+            "Israel",
+            3
+        ],
+        [
+            "Norway",
+            3
+        ],
+        [
+            "Bahrain",
+            2
+        ],
+        [
+            "Slovenia",
+            2
+        ],
+        [
+            "Dominica",
+            2
+        ],
+        [
+            "Palau",
+            2
+        ],
+        [
+            "Gabon",
+            2
+        ],
+        [
+            "Denmark",
+            2
+        ],
+        [
+            "Cyprus",
+            2
+        ],
+        [
+            "Malawi",
+            2
+        ],
+        [
+            "Armenia",
+            2
+        ],
+        [
+            "Guyana",
+            1
+        ],
+        [
+            "Bosnia and Herzegovina",
+            1
+        ],
+        [
+            "Lebanon",
+            1
+        ],
+        [
+            "Zambia",
+            1
+        ],
+        [
+            "Guinea",
+            1
+        ],
+        [
+            "Trinidad and Tobago",
+            1
+        ],
+        [
+            "Ivory Coast",
+            1
+        ],
+        [
+            "Macedonia",
+            1
+        ],
+        [
+            "Uruguay",
+            1
+        ],
+        [
+            "Palestinian Territory",
+            1
+        ],
+        [
+            "Vanuatu",
+            1
+        ],
+        [
+            "Lithuania",
+            1
+        ],
+        [
+            "Madagascar",
+            1
+        ],
+        [
+            "Antigua and Barbuda",
+            1
+        ]
+    ],
+    "oses": [
+        [
+            "Android",
+            11563
+        ],
+        [
+            "Windows",
+            8376
+        ],
+        [
+            "Linux",
+            2657
+        ],
+        [
+            "Unknown",
+            1473
+        ],
+        [
+            "Macintosh",
+            57
+        ]
+    ],
+    "oses_by_country": {
+        "Philippines": {
+            "Windows": 349,
+            "Android": 393,
+            "Linux": 218
+        },
+        "Poland": {
+            "Windows": 55,
+            "Android": 52,
+            "Linux": 14
+        },
+        "Indonesia": {
+            "Android": 2764,
+            "Windows": 1897,
+            "Linux": 683,
+            "Macintosh": 22,
+            "Unknown": 13
+        },
+        "United States": {
+            "Android": 161,
+            "Linux": 36,
+            "Windows": 119,
+            "Macintosh": 1,
+            "Unknown": 332
+        },
+        "Germany": {
+            "Android": 150,
+            "Linux": 41,
+            "Windows": 80,
+            "Unknown": 86
+        },
+        "India": {
+            "Android": 1788,
+            "Windows": 1316,
+            "Linux": 525,
+            "Macintosh": 7,
+            "Unknown": 5
+        },
+        "Spain": {
+            "Android": 107,
+            "Linux": 3,
+            "Windows": 26
+        },
+        "Ukraine": {
+            "Android": 163,
+            "Linux": 12,
+            "Windows": 91
+        },
+        "United Kingdom": {
+            "Android": 44,
+            "Windows": 23,
+            "Linux": 1,
+            "Unknown": 190
+        },
+        "Thailand": {
+            "Android": 42,
+            "Linux": 35,
+            "Windows": 2
+        },
+        "Egypt": {
+            "Windows": 313,
+            "Android": 377,
+            "Linux": 29,
+            "Unknown": 29
+        },
+        "Brazil": {
+            "Android": 256,
+            "Linux": 46,
+            "Windows": 131,
+            "Macintosh": 1,
+            "Unknown": 3
+        },
+        "Ireland": {
+            "Linux": 3,
+            "Android": 5,
+            "Windows": 1,
+            "Unknown": 524
+        },
+        "Bangladesh": {
+            "Android": 976,
+            "Windows": 1046,
+            "Linux": 135,
+            "Macintosh": 1,
+            "Unknown": 3
+        },
+        "Mexico": {
+            "Android": 239,
+            "Windows": 109,
+            "Linux": 72
+        },
+        "Morocco": {
+            "Android": 37,
+            "Linux": 4,
+            "Windows": 23
+        },
+        "Russia": {
+            "Windows": 453,
+            "Android": 586,
+            "Linux": 84,
+            "Unknown": 7
+        },
+        "South Africa": {
+            "Windows": 8,
+            "Android": 20,
+            "Linux": 2
+        },
+        "Portugal": {
+            "Android": 38,
+            "Linux": 2,
+            "Windows": 3
+        },
+        "Nigeria": {
+            "Windows": 9,
+            "Android": 16
+        },
+        "Viet Nam": {
+            "Windows": 238,
+            "Android": 110,
+            "Linux": 51,
+            "Macintosh": 1,
+            "Unknown": 5
+        },
+        "Turkey": {
+            "Android": 501,
+            "Windows": 366,
+            "Linux": 59,
+            "Unknown": 7
+        },
+        "Venezuela": {
+            "Linux": 9,
+            "Android": 226,
+            "Windows": 60,
+            "Unknown": 2
+        },
+        "Algeria": {
+            "Android": 174,
+            "Macintosh": 1,
+            "Linux": 20,
+            "Windows": 61
+        },
+        "Italy": {
+            "Linux": 15,
+            "Android": 120,
+            "Windows": 63,
+            "Macintosh": 2,
+            "Unknown": 23
+        },
+        "Peru": {
+            "Android": 71,
+            "Windows": 61,
+            "Linux": 26
+        },
+        "Netherlands": {
+            "Windows": 61,
+            "Android": 22,
+            "Linux": 2,
+            "Unknown": 24
+        },
+        "Singapore": {
+            "Android": 162,
+            "Windows": 91,
+            "Linux": 39,
+            "Unknown": 178
+        },
+        "Canada": {
+            "Android": 72,
+            "Linux": 2,
+            "Windows": 17
+        },
+        "Iraq": {
+            "Android": 14,
+            "Windows": 4
+        },
+        "Korea": {
+            "Windows": 67,
+            "Android": 36,
+            "Macintosh": 1
+        },
+        "Barbados": {
+            "Windows": 2,
+            "Android": 3
+        },
+        "Nepal": {
+            "Linux": 51,
+            "Windows": 140,
+            "Android": 159
+        },
+        "Colombia": {
+            "Android": 134,
+            "Windows": 98,
+            "Linux": 55
+        },
+        "Guyana": {
+            "Android": 1
+        },
+        "Moldova": {
+            "Windows": 6,
+            "Android": 79
+        },
+        "Unknown": {
+            "Android": 144,
+            "Windows": 2,
+            "Linux": 17
+        },
+        "Pakistan": {
+            "Windows": 164,
+            "Linux": 66,
+            "Android": 112
+        },
+        "Qatar": {
+            "Android": 15,
+            "Windows": 2,
+            "Linux": 2
+        },
+        "Iran": {
+            "Android": 151,
+            "Windows": 72,
+            "Linux": 16
+        },
+        "Mozambique": {
+            "Android": 20
+        },
+        "France": {
+            "Android": 87,
+            "Linux": 45,
+            "Windows": 51,
+            "Unknown": 27
+        },
+        "Argentina": {
+            "Windows": 69,
+            "Android": 102,
+            "Linux": 13,
+            "Macintosh": 1
+        },
+        "Bahrain": {
+            "Windows": 2
+        },
+        "Sri Lanka": {
+            "Windows": 4,
+            "Linux": 16,
+            "Android": 18
+        },
+        "Sweden": {
+            "Android": 6,
+            "Windows": 8
+        },
+        "Bolivia": {
+            "Android": 5,
+            "Windows": 14,
+            "Linux": 1
+        },
+        "Slovenia": {
+            "Android": 1,
+            "Windows": 1
+        },
+        "Chile": {
+            "Android": 43,
+            "Linux": 1,
+            "Windows": 5
+        },
+        "Paraguay": {
+            "Windows": 47,
+            "Android": 4,
+            "Linux": 1
+        },
+        "Ghana": {
+            "Windows": 23,
+            "Android": 7,
+            "Linux": 4
+        },
+        "Romania": {
+            "Android": 36,
+            "Windows": 32,
+            "Linux": 12,
+            "Macintosh": 5
+        },
+        "Nicaragua": {
+            "Android": 42,
+            "Linux": 16
+        },
+        "Dominican Republic": {
+            "Android": 41,
+            "Windows": 10
+        },
+        "Libya": {
+            "Android": 6
+        },
+        "Malaysia": {
+            "Android": 39,
+            "Linux": 9,
+            "Macintosh": 10,
+            "Windows": 13,
+            "Unknown": 2
+        },
+        "Latvia": {
+            "Windows": 11,
+            "Android": 4,
+            "Unknown": 2
+        },
+        "Japan": {
+            "Windows": 36,
+            "Android": 87,
+            "Linux": 3,
+            "Macintosh": 1
+        },
+        "Hungary": {
+            "Windows": 16,
+            "Android": 20,
+            "Linux": 7
+        },
+        "Belgium": {
+            "Windows": 5,
+            "Android": 4,
+            "Macintosh": 1
+        },
+        "Belarus": {
+            "Android": 43,
+            "Windows": 39,
+            "Linux": 20
+        },
+        "Ecuador": {
+            "Android": 127,
+            "Linux": 48,
+            "Windows": 89
+        },
+        "Australia": {
+            "Windows": 11,
+            "Android": 5
+        },
+        "Slovakia": {
+            "Windows": 13,
+            "Android": 3,
+            "Linux": 14
+        },
+        "Malta": {
+            "Android": 4
+        },
+        "Bosnia and Herzegovina": {
+            "Android": 1
+        },
+        "Serbia": {
+            "Windows": 10
+        },
+        "United Arab Emirates": {
+            "Android": 27,
+            "Linux": 2,
+            "Windows": 13
+        },
+        "Taiwan": {
+            "Android": 3,
+            "Windows": 14
+        },
+        "Kazakhstan": {
+            "Windows": 7,
+            "Android": 6
+        },
+        "Greece": {
+            "Windows": 13,
+            "Android": 30
+        },
+        "Kenya": {
+            "Android": 25,
+            "Windows": 76,
+            "Linux": 51
+        },
+        "Myanmar": {
+            "Android": 7,
+            "Windows": 3
+        },
+        "Jamaica": {
+            "Android": 1,
+            "Windows": 3
+        },
+        "Saudi Arabia": {
+            "Android": 21,
+            "Windows": 5
+        },
+        "Sudan": {
+            "Android": 4,
+            "Windows": 1
+        },
+        "Tanzania": {
+            "Android": 4
+        },
+        "Tunisia": {
+            "Android": 12,
+            "Linux": 7,
+            "Windows": 2
+        },
+        "Hong Kong": {
+            "Windows": 7
+        },
+        "Honduras": {
+            "Android": 30,
+            "Windows": 8
+        },
+        "Mauritania": {
+            "Android": 4
+        },
+        "Lebanon": {
+            "Android": 1
+        },
+        "Finland": {
+            "Linux": 3,
+            "Windows": 8,
+            "Android": 8
+        },
+        "Belize": {
+            "Android": 1,
+            "Windows": 2
+        },
+        "Zambia": {
+            "Android": 1
+        },
+        "Tajikistan": {
+            "Linux": 1,
+            "Android": 4,
+            "Unknown": 1
+        },
+        "Maldives": {
+            "Windows": 3
+        },
+        "Czech Republic": {
+            "Android": 7,
+            "Windows": 2
+        },
+        "Georgia": {
+            "Android": 34,
+            "Linux": 6,
+            "Windows": 12
+        },
+        "Mauritius": {
+            "Windows": 6
+        },
+        "Austria": {
+            "Windows": 7,
+            "Android": 1,
+            "Unknown": 10
+        },
+        "Guinea": {
+            "Windows": 1
+        },
+        "China": {
+            "Windows": 9
+        },
+        "Jordan": {
+            "Android": 5,
+            "Windows": 2
+        },
+        "Togo": {
+            "Android": 5,
+            "Windows": 2
+        },
+        "Trinidad and Tobago": {
+            "Android": 1
+        },
+        "Senegal": {
+            "Android": 4
+        },
+        "Switzerland": {
+            "Android": 11
+        },
+        "Dominica": {
+            "Android": 2
+        },
+        "Ivory Coast": {
+            "Android": 1
+        },
+        "Oman": {
+            "Android": 5,
+            "Linux": 1
+        },
+        "Azerbaijan": {
+            "Android": 1,
+            "Windows": 3
+        },
+        "Uzbekistan": {
+            "Windows": 9,
+            "Android": 1
+        },
+        "Macedonia": {
+            "Linux": 1
+        },
+        "Palau": {
+            "Windows": 2
+        },
+        "Gabon": {
+            "Android": 2
+        },
+        "Uruguay": {
+            "Android": 1
+        },
+        "Uganda": {
+            "Windows": 3,
+            "Android": 1
+        },
+        "Denmark": {
+            "Android": 2
+        },
+        "Israel": {
+            "Android": 3
+        },
+        "Norway": {
+            "Android": 1,
+            "Macintosh": 2
+        },
+        "Palestinian Territory": {
+            "Android": 1
+        },
+        "Cyprus": {
+            "Windows": 2
+        },
+        "Bulgaria": {
+            "Android": 8,
+            "Windows": 1
+        },
+        "Vanuatu": {
+            "Android": 1
+        },
+        "Malawi": {
+            "Windows": 2
+        },
+        "Lithuania": {
+            "Android": 1
+        },
+        "Madagascar": {
+            "Windows": 1
+        },
+        "Antigua and Barbuda": {
+            "Windows": 1
+        },
+        "Estonia": {
+            "Windows": 6
+        },
+        "Armenia": {
+            "Windows": 2
+        }
+    },
+    "oses_with_downloads": [
+        "Android",
+        "Linux",
+        "Macintosh",
+        "Unknown",
+        "Windows"
+    ],
+    "total": 24126,
+    "summaries": {
+        "time": {
+            "downloads": 24126
+        },
+        "geo": {
+            "top": "Indonesia",
+            "percent": 22,
+            "modifier_text": ""
+        },
+        "os": {
+            "top": "Android",
+            "percent": 48,
+            "modifier_text": ""
+        }
+    },
+    "period": "weekly",
+    "stats_updated": "2024-10-13 23:59:59",
+    "start_date": "2024-05-04 00:00:00",
+    "end_date": "2024-10-13 00:00:00",
+    "last_period_incomplete": true
+}
