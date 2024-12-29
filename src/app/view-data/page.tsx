@@ -3,10 +3,7 @@ import MyCharts from "../../components/charts";
 import { format } from "date-fns";
 
 export default async function ViewData() {
-  const file = await fs.readFile(
-    process.cwd() + "/public/[UPDATED]trm_miui.json",
-    "utf8"
-  );
+  const file = await fs.readFile("public/[UPDATED]trm_miui.json", "utf8");
   const data = JSON.parse(file);
   const countryLabel: string[] = data.countries_name;
   const countryData: number[] = data.countries_total;
