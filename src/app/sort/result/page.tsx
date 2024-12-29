@@ -7,7 +7,7 @@ export default async function ResultPage({
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { sort = "" } = await searchParams;
-  const filepath = path.resolve(process.cwd() + "public/trm_miui.json");
+  const filepath = path.resolve(process.cwd() + "/public/trm_miui.json");
   const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const dataDate = data.downloads;

@@ -9,7 +9,7 @@ export default async function CountrySearchPage({
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { country = "" } = await searchParams;
-  const filepath = path.resolve(process.cwd() + "public/trm_miui.json");
+  const filepath = path.resolve(process.cwd() + "/public/trm_miui.json");
   const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const countries = data.countries;

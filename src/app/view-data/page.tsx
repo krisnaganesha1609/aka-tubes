@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import path from "path";
 
 export default async function ViewData() {
-  const filepath = path.resolve(process.cwd(), "public/trm_miui_update.json");
+  const filepath = path.resolve(process.cwd(), "/public/trm_miui_update.json");
   const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const countryLabel: string[] = data.countries_name;

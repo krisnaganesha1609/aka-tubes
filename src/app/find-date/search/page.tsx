@@ -9,7 +9,7 @@ export default async function DateSearchPage({
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { date = "" } = await searchParams;
-  const filepath = path.resolve(process.cwd() + "public/trm_miui.json");
+  const filepath = path.resolve(process.cwd() + "/public/trm_miui.json");
   const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const downloads = data.downloads;
