@@ -8,10 +8,9 @@ interface DataItem {
     date: string;
 }
 
-const FindPage: React.FC = () => {
+const SortPage: React.FC = () => {
     const [data, setData] = useState<DataItem[]>([]);
-    const [filteredData, setFilteredData] = useState<DataItem[]>([]);
-    const [searchDate, setSearchDate] = useState('');
+    const [sortedData, setSortedData] = useState<DataItem[]>([]);
     const [executionTime, setExecutionTime] = useState<string>('');
 
     useEffect(() => {
@@ -28,23 +27,35 @@ const FindPage: React.FC = () => {
         fetchData();
     }, []);
 
-    const findByDate = () => {
+    const sortData = (order: 'asc' | 'desc', sortBy: 'country' | 'date') => {
         const startTime = performance.now();
-        const result = data.filter(item => item.date === searchDate);
+
+        const sorted = [...data].sort((a, b) => {
+            if (sortBy === 'date') {
+                const dateA = new Date(a.date).getTime();
+                const dateB = new Date(b.date).getTime();
+                return order === 'asc' ? dateA - dateB : dateB - dateA;
+            } else {
+                const countryA = a.country.toLowerCase();
+                const countryB = b.country.toLowerCase();
+                if (countryA < countryB) return order === 'asc' ? -1 : 1;
+                if (countryA > countryB) return order === 'asc' ? 1 : -1;
+                return 0;
+            }
+        });
+
         const endTime = performance.now();
         setExecutionTime(`${(endTime - startTime).toFixed(2)} ms`);
-        setFilteredData(result);
+        setSortedData(sorted);
     };
 
     return (
         <div>
-            <h1>Find by Date</h1>
-            <input
-                type="date"
-                value={searchDate}
-                onChange={(e) => setSearchDate(e.target.value)}
-            />
-            <button onClick={findByDate}>Find</button>
+            <h1>Sort Data</h1>
+            <button onClick={() => sortData('asc', 'date')}>Sort by Date Ascending</button>
+            <button onClick={() => sortData('desc', 'date')}>Sort by Date Descending</button>
+            <button onClick={() => sortData('asc', 'country')}>Sort by Country Ascending</button>
+            <button onClick={() => sortData('desc', 'country')}>Sort by Country Descending</button>
             <p>Execution Time: {executionTime}</p>
             <table border="1">
                 <thead>
@@ -55,7 +66,7 @@ const FindPage: React.FC = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {filteredData.map(item => (
+                    {sortedData.map(item => (
                         <tr key={item.id}>
                             <td>{item.id}</td>
                             <td>{item.country}</td>
@@ -68,4 +79,4 @@ const FindPage: React.FC = () => {
     );
 };
 
-export default FindPage;
+export default SortPage;
