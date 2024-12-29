@@ -8,8 +8,6 @@ export default async function ViewData() {
     "utf8"
   );
   const data = JSON.parse(file);
-  const osesLabel: string[] = data.oses;
-  const osesData: number[] = data.oses_total;
   const countryLabel: string[] = data.countries_name;
   const countryData: number[] = data.countries_total;
   let dateLabel: string[] = data.downloads_date;

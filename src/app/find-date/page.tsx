@@ -8,13 +8,15 @@ export default function FindByDatePage() {
           Find By Date :{" "}
         </h1>
         <Form
-          action={"/find-country/search"}
+          action={"/find-date/search"}
           type="POST"
           className="flex flex-col bg-green-600 shadow-md rounded px-8 pt-6 pb-8 mb-4"
         >
           <input
             type="date"
-            name="country"
+            name="date"
+            min={"2024-04-28"}
+            max={"2024-10-13"}
             className="font-[family-name:var(--font-geist-sans)] shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
           <button
