@@ -4,7 +4,7 @@ import { format } from "date-fns";
 
 export default async function ViewData() {
   const file = await fs.readFile(
-    process.cwd + "/public/trm_miui_update.json",
+    process.cwd() + "/public/trm_miui_update.json",
     "utf8"
   );
   const data = JSON.parse(file);
