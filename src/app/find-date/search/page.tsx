@@ -1,6 +1,7 @@
 import FindIterativeAlgorithm from "@/components/find_iterative_algorithm";
 import { promises as fs } from "fs";
 import FindRecursiveAlgorithm from "../../../components/find_recursive_algorithm";
+import path from "path";
 
 export default async function DateSearchPage({
   searchParams,
@@ -8,7 +9,8 @@ export default async function DateSearchPage({
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { date = "" } = await searchParams;
-  const file = await fs.readFile("public/trm_miui.json", "utf8");
+  const filepath = path.resolve(process.cwd() + "public/trm_miui.json");
+  const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const downloads = data.downloads;
   return (

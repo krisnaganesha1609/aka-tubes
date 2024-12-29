@@ -1,12 +1,14 @@
 import SortAlgorithm from "@/components/sort_algorithm";
 import { promises as fs } from "fs";
+import path from "path";
 export default async function ResultPage({
   searchParams,
 }: {
   searchParams: Promise<{ [key: string]: string | undefined }>;
 }) {
   const { sort = "" } = await searchParams;
-  const file = await fs.readFile("public/trm_miui.json", "utf8");
+  const filepath = path.resolve(process.cwd() + "public/trm_miui.json");
+  const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const dataDate = data.downloads;
   const dataCountry = data.countries;

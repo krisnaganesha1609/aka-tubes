@@ -1,9 +1,11 @@
 import { promises as fs } from "fs";
 import MyCharts from "../../components/charts";
 import { format } from "date-fns";
+import path from "path";
 
 export default async function ViewData() {
-  const file = await fs.readFile("public/[UPDATED]trm_miui.json", "utf8");
+  const filepath = path.resolve(process.cwd(), "public/trm_miui_update.json");
+  const file = await fs.readFile(filepath, "utf8");
   const data = JSON.parse(file);
   const countryLabel: string[] = data.countries_name;
   const countryData: number[] = data.countries_total;
